@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.11.0-27-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-10-04T12:05:36.139956",
+    "startedAt": "2022-10-04T12:05:35.563292",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [
+        "--local_rank=0",
+        "configs/bevfusion/contfusion.py",
+        "--launcher",
+        "pytorch"
+    ],
+    "state": "running",
+    "program": "./tools/train.py",
+    "codePath": "tools/train.py",
+    "host": "q3-MS-7D32",
+    "username": "q3",
+    "executable": "/home/q3/anaconda3/envs/uda/bin/python"
+}
